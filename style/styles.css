@@ -13,7 +13,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 38px 160px;
+    margin: 0.0px 160px;
+}
+
+
+
+.button-b {
+    font-family: "Azeret Mono", monospace;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    background-color: rgb(13, 19, 33);
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-top: 100px;
 }
 
 .download-btn{
@@ -42,6 +57,20 @@ body {
     margin-top: 260px;
 }
 
+.dev-text {
+    margin-top: 30px;
+}
+
+.dev {
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
 .nav-title {
     font-size: 48px;
@@ -63,18 +92,19 @@ body {
 
 .main-content {
     width: 1140px;
-    height: 1600px;
-    border: 2px solid red;
+    height: 1650px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     margin-top: 90px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-bottom: ;
 }
 
 .content {
     width: 946px;
     height: 286px;
-    border: 2px solid black;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -82,6 +112,8 @@ body {
     background-repeat: no-repeat;
     padding: 50px;
     display: flex;
+    background-color: #ffffff;
+    border-radius: 16px;
 }
 
 .img-layer {
@@ -104,6 +136,7 @@ body {
     color: rgb(13, 19, 33);
     font-family: "Azeret Mono", monospace;
     margin: 30px 0; 
+    border-radius: 8px;
 }
 
 .btn-b {
@@ -111,5 +144,174 @@ body {
     font-size: medium;
     color: rgb(13, 19, 33);
     font-family: "Azeret Mono", monospace;
-    margin: 30px 49px;
+    margin: 32px 49px;
+    border-radius: 8px;
+}
+
+.para p {
+    margin-top: 20px;
+}
+
+.para-p p {
+    margin-top: 20px;
+}
+
+.my-inspiration {
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.my-inspiration p {
+    margin-top: 30px;
+}
+
+.my-inspiration h1 {
+    margin-top: 30px;
+}
+
+.video {
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.lutgaya {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.my-target {
+    text-align: center;
+
+}
+
+.my-target p {
+    margin-top: 30px;
+}
+
+.my-target h1 {
+    margin-top: 100px;
+}
+
+.target {
+    height: 350px;
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.current-target-one {
+    width: 364px;
+    height: 400px;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+
+}
+.current-target-two {
+    width: 364px;
+    height: 400px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+
+}
+.current-target-three {
+    width: 364px;
+    height: 400px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+
+}
+
+.content-para {
+    margin: 40px;
+}
+
+.link-1 {
+    margin-top: 78px;
+}
+.link-2 {
+    margin-top: 20px;
+}
+.link-3 {
+    margin-top: 60px;
+}
+
+
+.content-para p {
+    margin-top: 20px;
+}
+
+.footer-one {
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url("../assets/handshake.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 10px
+}
+
+.support {
+    text-align: center;
+    color: #ffffff;
+}
+
+.text input[type="text"] {
+    width: 500px;
+    height: 43px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 30px;
+    border: none;
+}
+
+.text input[type="submit"] {
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.footer-three {
+    width: 90%;
+    height: 80px;
+    margin-top: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(13, 19, 33, 0.03);
+
+}
+
+
+.footer-three {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 120px;
+    padding-right: 67px;
+
+}
+
+.img-icon {
+    display: flex;
+    margin-right: 10px;
+}
+
+.icon {
+    margin-right: 20px;
 }
